@@ -1,0 +1,203 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@vx/gradient':
+    specifier: 0.0.192
+    version: 0.0.192(react@17.0.2)
+  '@vx/group':
+    specifier: 0.0.190
+    version: 0.0.190(react@17.0.2)
+  '@vx/hierarchy':
+    specifier: 0.0.179
+    version: 0.0.179(react@17.0.2)
+  '@vx/shape':
+    specifier: 0.0.179
+    version: 0.0.179(react@17.0.2)
+  classnames:
+    specifier: 2.2.6
+    version: 2.2.6
+  d3-hierarchy:
+    specifier: 1.1.9
+    version: 1.1.9
+  prop-types:
+    specifier: 15.7.2
+    version: 15.7.2
+  react:
+    specifier: 17.0.2
+    version: 17.0.2
+  react-dom:
+    specifier: 17.0.2
+    version: 17.0.2(react@17.0.2)
+  react-move:
+    specifier: 6.5.0
+    version: 6.5.0(react@17.0.2)
+
+packages:
+
+  /@babel/runtime@7.27.1:
+    resolution: {integrity: sha512-1x3D2xEk2fRo3PAhwQwu5UubzgiVWSXTBfWpVd2Mx2AzRqJuDJCsgaDVZ7HB5iGzDW1Hl1sWN2mFyKjmR9uAog==}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
+  /@vx/curve@0.0.165:
+    resolution: {integrity: sha512-fiQAGrKNGjJbL+eixUckJqIZDWXH/1NtIyyDbSz3J7ksk0QpYr5BgWcNJN76HLNt7wfcLwNzCHeNs4iVYyFGTg==}
+    dependencies:
+      d3-shape: 1.3.7
+    dev: false
+
+  /@vx/gradient@0.0.192(react@17.0.2):
+    resolution: {integrity: sha512-F5Rv+ijSQMZlj9QSo5e0WNNi9A1ximcnXIW8JHCp0+Z1h5OR7CvuTna/qe9eEw6Zu3O3FWesS1+oWTozBuUWKg==}
+    peerDependencies:
+      react: ^15.0.0-0 || ^16.0.0-0
+    dependencies:
+      classnames: 2.2.6
+      prop-types: 15.7.2
+      react: 17.0.2
+    dev: false
+
+  /@vx/group@0.0.170(react@17.0.2):
+    resolution: {integrity: sha512-RnDdRoy0YI5hokk+YWXc8t39Kp51i4BdCpiwkDJU4YypGycTYnDFjicam6jigUmZ/6wyMirDf/aQboWviFLt2Q==}
+    peerDependencies:
+      react: ^15.0.0-0 || ^16.0.0-0
+    dependencies:
+      classnames: 2.2.6
+      react: 17.0.2
+    dev: false
+
+  /@vx/group@0.0.190(react@17.0.2):
+    resolution: {integrity: sha512-tyFIQS4iB987281ZWNmozdjqzyBrM4lsw4J8ObeJTeybTi1T5EgdkN/pmviCCIcT29Q1kVtFOC8FoQLXkcimcQ==}
+    peerDependencies:
+      react: ^15.0.0-0 || ^16.0.0-0
+    dependencies:
+      classnames: 2.2.6
+      prop-types: 15.7.2
+      react: 17.0.2
+    dev: false
+
+  /@vx/hierarchy@0.0.179(react@17.0.2):
+    resolution: {integrity: sha512-ws5sczfmW6MylUr78zAu4UImCXBiPnjQRPQm9w7NwdQuc9h5OtOxtZ4ZIeGIrq/ZPjIMMpy1fHBUizJF9viVHQ==}
+    peerDependencies:
+      react: ^15.0.0-0 || ^16.0.0-0
+    dependencies:
+      '@vx/group': 0.0.170(react@17.0.2)
+      classnames: 2.2.6
+      d3-hierarchy: 1.1.9
+      prop-types: 15.7.2
+      react: 17.0.2
+    dev: false
+
+  /@vx/point@0.0.165:
+    resolution: {integrity: sha512-spoHilhjcWNgccrSzBUPw+PXV81tYxeyEWBkgr35aGVU4m7YT86Ywvfemwp7AVVGPn+XJHrhB0ujAhDoyqFPoA==}
+    dev: false
+
+  /@vx/shape@0.0.179(react@17.0.2):
+    resolution: {integrity: sha512-YHVNx4xGpbjolkW3Lb5pEgJB0+u349vfnLI976DJlinY0hRNa4TZbWXOB4ywLIrYzQEXXPMUR8WtdubNxg6g0w==}
+    peerDependencies:
+      react: ^15.0.0-0 || ^16.0.0-0
+    dependencies:
+      '@vx/curve': 0.0.165
+      '@vx/group': 0.0.170(react@17.0.2)
+      '@vx/point': 0.0.165
+      classnames: 2.2.6
+      d3-path: 1.0.9
+      d3-shape: 1.3.7
+      prop-types: 15.7.2
+      react: 17.0.2
+    dev: false
+
+  /classnames@2.2.6:
+    resolution: {integrity: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==}
+    dev: false
+
+  /d3-hierarchy@1.1.9:
+    resolution: {integrity: sha512-j8tPxlqh1srJHAtxfvOUwKNYJkQuBFdM1+JAUfq6xqH5eAqf93L7oG1NVqDa4CpFZNvnNKtCYEUC8KY9yEn9lQ==}
+    dev: false
+
+  /d3-path@1.0.9:
+    resolution: {integrity: sha512-VLaYcn81dtHVTjEHd8B+pbe9yHWpXKZUC87PzoFmsFrJqgFwDe/qxfp5MlfsfM1V5E/iVt0MmEbWQ7FVIXh/bg==}
+    dev: false
+
+  /d3-shape@1.3.7:
+    resolution: {integrity: sha512-EUkvKjqPFUAZyOlhY5gzCxCeI0Aep04LwIRpsZ/mLFelJiUfnK56jo5JMDSE7yyP2kLSb6LtF+S5chMk7uqPqw==}
+    dependencies:
+      d3-path: 1.0.9
+    dev: false
+
+  /d3-timer@1.0.10:
+    resolution: {integrity: sha512-B1JDm0XDaQC+uvo4DT79H0XmBskgS3l6Ve+1SBCfxgmtIb1AVrPIoqd+nPSv+loMX8szQ0sVUhGngL7D5QPiXw==}
+    dev: false
+
+  /js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
+  /kapellmeister@3.0.1:
+    resolution: {integrity: sha512-S7+gYcziMREv8RxG46138mb1O4Xf9II/bCxEJPYkhlZ7PgGWTlicgsyNad/DGc5oEAlWGLXE5ExLbTDVvJmgDA==}
+    dependencies:
+      d3-timer: 1.0.10
+    dev: false
+
+  /loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /object-assign@4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /prop-types@15.7.2:
+    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+    dev: false
+
+  /react-dom@17.0.2(react@17.0.2):
+    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+    peerDependencies:
+      react: 17.0.2
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react: 17.0.2
+      scheduler: 0.20.2
+    dev: false
+
+  /react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+    dev: false
+
+  /react-move@6.5.0(react@17.0.2):
+    resolution: {integrity: sha512-tl8zwCqtXXWfmrUJGnkyPMNhx8DUTy1NugEuPW/JTMp2TGSEC819aMXGYMG8FWFzV9I6jy4kbgoZJnBpmZRktA==}
+    peerDependencies:
+      react: '>=16.3.0'
+    dependencies:
+      '@babel/runtime': 7.27.1
+      kapellmeister: 3.0.1
+      prop-types: 15.7.2
+      react: 17.0.2
+    dev: false
+
+  /react@17.0.2:
+    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
+
+  /scheduler@0.20.2:
+    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false

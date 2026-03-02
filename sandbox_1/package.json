@@ -1,0 +1,21 @@
+{
+  "name": "animated-bar-chart-using-react-move",
+  "version": "1.0.0",
+  "description": "Bar chart with enter/leave/update transitions, built with React and react-move",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-move": "2.8.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
